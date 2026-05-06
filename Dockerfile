@@ -1,5 +1,5 @@
 
-FROM docker.orchidpharmed.com/frappe/erpnext:v16.16.0
+FROM frappe/erpnext:v16.16.0
 
 # user main
 USER root
