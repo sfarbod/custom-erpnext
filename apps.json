@@ -56,9 +56,5 @@
     "url": "https://github.com/The-Commit-Company/raven",
     "branch": "v2.8.11"
   }
-       ,
-   {
-    "url": "https://github.com/frappe/drive",
-    "branch": "main"
-  }
+ 
 ]
