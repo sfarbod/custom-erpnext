@@ -27,7 +27,7 @@ RUN bench get-app --branch v2.53.1 --skip-assets https://github.com/frappe/lms
 RUN bench get-app --branch v3.9.5  https://github.com/frappe/insights
 RUN bench get-app --branch v3.0.0-rc.2 --skip-assets https://github.com/frappe/wiki
 RUN bench get-app --branch v1.5.4 --skip-assets https://github.com/frappe/lending
-RUN bench get-app --branch develop --skip-assets https://github.com/frappe/drive
+RUN bench get-app --branch develop --skip-assets https://github.com/frappe/drive || true
 RUN bench get-app --branch v2.8.11  --skip-assets https://github.com/The-Commit-Company/raven
 
 
