@@ -1,5 +1,5 @@
 
-FROM frappe/erpnext:v16.17.0
+FROM frappe/erpnext:v16.18.0
 
 # user main
 USER root
