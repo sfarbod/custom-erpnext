@@ -6,14 +6,14 @@
   
    {
     "url": "https://github.com/sfarbod/ERPNext_Extensions",
-    "branch": "v1.1.0"
+    "branch": "v1.2.0"
   }
   
   ,
   
    {
     "url": "https://github.com/sfarbod/persian_calendar_ERPNext",
-    "branch": "v1.2.0"
+    "branch": "v1.3.0"
   }
    ,
    {
@@ -29,7 +29,7 @@
   
    {
     "url": "https://github.com/frappe/helpdesk",
-    "branch": "v1.23.0"
+    "branch": "v1.24.1"
   }
   ,
    {
