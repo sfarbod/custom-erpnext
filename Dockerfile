@@ -21,7 +21,7 @@ COPY apps.json /home/frappe/frappe-bench/apps.v16.json
 # hrms
 RUN bench get-app --branch v16.7.0 --skip-assets https://github.com/frappe/hrms
 RUN bench get-app --branch v1.2.0 https://github.com/sfarbod/ERPNext_Extensions
-RUN bench get-app --branch v1.3.0 https://github.com/sfarbod/persian_calendar_ERPNext
+RUN bench get-app --branch v1.4.0 https://github.com/sfarbod/persian_calendar_ERPNext
 RUN bench get-app --branch develop --skip-assets https://github.com/frappe/telephony
 RUN bench get-app --branch version-16 --skip-assets https://github.com/frappe/payments
 RUN bench get-app --branch v1.24.1 --skip-assets https://github.com/frappe/helpdesk
