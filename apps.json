@@ -1,7 +1,7 @@
 [
   {
     "url": "https://github.com/frappe/hrms",
-    "branch": "v16.7.0"
+    "branch": "v16.7.1"
   },
   
    {
@@ -13,7 +13,7 @@
   
    {
     "url": "https://github.com/sfarbod/persian_calendar_ERPNext",
-    "branch": "v1.4.0"
+    "branch": "v1.5.0"
   }
    ,
    {
@@ -39,7 +39,7 @@
    ,
    {
     "url": "https://github.com/frappe/insights",
-    "branch": "v3.9.5"
+    "branch": "v3.9.11"
   }
     ,
    {
