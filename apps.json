@@ -1,12 +1,12 @@
 [
   {
     "url": "https://github.com/frappe/hrms",
-    "branch": "v16.7.1"
+    "branch": "v16.8.0"
   },
   
    {
     "url": "https://github.com/sfarbod/ERPNext_Extensions",
-    "branch": "v1.3.0"
+    "branch": "v1.4.0"
   }
   
   ,
@@ -29,12 +29,12 @@
   
    {
     "url": "https://github.com/frappe/helpdesk",
-    "branch": "v1.24.1"
+    "branch": "v1.25.1"
   }
   ,
    {
     "url": "https://github.com/frappe/lms",
-    "branch": "v2.53.1"
+    "branch": "v2.54.2"
   }
    ,
    {
