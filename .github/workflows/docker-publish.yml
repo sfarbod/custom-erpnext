@@ -32,5 +32,5 @@ jobs:
           push: true
           tags: |
             sfarbod/custom-erpnext:latest
-            sfarbod/custom-erpnext:v16.21.3
+            sfarbod/custom-erpnext:v16.22.0
  #           sfarbod/custom-erpnext:${{ github.sha }}
