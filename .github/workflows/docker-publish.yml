@@ -30,7 +30,8 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-	  no-cache: true
+          pull: true
+          no-cache: true
           tags: |
             sfarbod/custom-erpnext:latest
             sfarbod/custom-erpnext:v16.22.1
