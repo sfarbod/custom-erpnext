@@ -33,5 +33,15 @@ RUN bench get-app --branch develop --skip-assets https://github.com/frappe/drive
 RUN bench get-app --branch v2.8.11  --skip-assets https://github.com/The-Commit-Company/raven
 RUN bench get-app --branch v0.5.0  --skip-assets https://github.com/erenaydin-t/dms
 
+USER root
 
+RUN /home/frappe/frappe-bench/env/bin/pip install --no-cache-dir \
+    --upgrade \
+    pyOpenSSL \
+    cryptography \
+    urllib3 \
+    boto3 \
+    botocore
+
+USER frappe
 
