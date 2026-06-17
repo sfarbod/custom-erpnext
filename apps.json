@@ -6,7 +6,7 @@
   
    {
     "url": "https://github.com/sfarbod/ERPNext_Extensions",
-    "branch": "v2.2.0"
+    "branch": "v2.3.0"
   }
   
   ,
@@ -39,7 +39,7 @@
    ,
    {
     "url": "https://github.com/frappe/insights",
-    "branch": "v3.10.0"
+    "branch": "v3.11.0"
   }
     ,
    {
@@ -59,7 +59,7 @@
      ,
    {
     "url": "https://github.com/erenaydin-t/dms",
-    "branch": "v0.5.0"
+    "branch": "v1.2.0"
   }
     ,
    {
