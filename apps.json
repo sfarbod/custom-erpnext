@@ -1,12 +1,12 @@
 [
   {
     "url": "https://github.com/frappe/hrms",
-    "branch": "v16.13.0"
+    "branch": "v16.14.0"
   },
   
    {
     "url": "https://github.com/sfarbod/ERPNext_Extensions",
-    "branch": "v3.6.8"
+    "branch": "v3.7.1"
   }
   
   ,
@@ -29,7 +29,7 @@
   
    {
     "url": "https://github.com/frappe/helpdesk",
-    "branch": "v1.27.0"
+    "branch": "v1.28.1"
   }
   ,
    {
@@ -39,7 +39,7 @@
    ,
    {
     "url": "https://github.com/frappe/insights",
-    "branch": "v3.11.2"
+    "branch": "v3.12.2"
   }
     ,
    {
@@ -59,7 +59,11 @@
      ,
    {
     "url": "https://github.com/erenaydin-t/dms",
-    "branch": "v2.3.2"
+    "branch": "main"
   }
- 
+     ,
+   {
+    "url": "https://github.com/erenaydin-t/office_automation",
+    "branch": "main"
+  }
 ]
