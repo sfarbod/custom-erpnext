@@ -1,19 +1,19 @@
 [
   {
     "url": "https://github.com/frappe/hrms",
-    "branch": "v16.14.0"
+    "branch": "v16.15.0"
   },
   
    {
     "url": "https://github.com/sfarbod/ERPNext_Extensions",
-    "branch": "v3.7.2"
+    "branch": "v3.8.0"
   }
   
   ,
   
    {
     "url": "https://github.com/sfarbod/persian_calendar_ERPNext",
-    "branch": "v1.7.0"
+    "branch": "v1.8.0"
   }
    ,
    {

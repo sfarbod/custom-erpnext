@@ -1,5 +1,5 @@
 
-FROM frappe/erpnext:v16.29.0
+FROM frappe/erpnext:v16.30.0
 
 # user main
 USER root
@@ -32,9 +32,9 @@ WORKDIR /home/frappe/frappe-bench
 COPY apps.json /home/frappe/frappe-bench/apps.v16.json
 
 # hrms
-RUN bench get-app --branch v16.14.0 --skip-assets https://github.com/frappe/hrms
-RUN bench get-app --branch v3.7.2 https://github.com/sfarbod/ERPNext_Extensions
-RUN bench get-app --branch v1.7.0 https://github.com/sfarbod/persian_calendar_ERPNext
+RUN bench get-app --branch v16.15.0 --skip-assets https://github.com/frappe/hrms
+RUN bench get-app --branch v3.8.0 https://github.com/sfarbod/ERPNext_Extensions
+RUN bench get-app --branch v1.8.0 https://github.com/sfarbod/persian_calendar_ERPNext
 RUN bench get-app --branch develop --skip-assets https://github.com/frappe/telephony
 RUN bench get-app --branch version-16 --skip-assets https://github.com/frappe/payments
 RUN bench get-app --branch v1.28.1 --skip-assets https://github.com/frappe/helpdesk
