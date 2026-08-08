@@ -37,7 +37,7 @@ RUN bench get-app --branch v3.8.9 https://github.com/sfarbod/ERPNext_Extensions
 RUN bench get-app --branch v1.9.0 https://github.com/sfarbod/persian_calendar_ERPNext
 RUN bench get-app --branch develop --skip-assets https://github.com/frappe/telephony
 RUN bench get-app --branch version-16 --skip-assets https://github.com/frappe/payments
-RUN bench get-app --branch v1.29.0--skip-assets https://github.com/frappe/helpdesk
+RUN bench get-app --branch v1.29.0 --skip-assets https://github.com/frappe/helpdesk
 RUN bench get-app --branch v2.58.1 --skip-assets https://github.com/frappe/lms
 RUN bench get-app --branch v3.12.4  https://github.com/frappe/insights
 RUN bench get-app --branch v3.0.0 --skip-assets https://github.com/frappe/wiki
