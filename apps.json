@@ -6,14 +6,14 @@
   
    {
     "url": "https://github.com/sfarbod/ERPNext_Extensions",
-    "branch": "v4.3.1"
+    "branch": "v4.3.2"
   }
   
   ,
   
    {
     "url": "https://github.com/sfarbod/persian_calendar_ERPNext",
-    "branch": "v2.0.0"
+    "branch": "v2.0.1"
   }
    ,
    {
@@ -34,7 +34,7 @@
   ,
    {
     "url": "https://github.com/frappe/lms",
-    "branch": "v2.58.1"
+    "branch": "v2.61.0"
   }
    ,
    {
@@ -70,5 +70,11 @@
    {
     "url": "https://github.com/frappe/crm",
     "branch": "v1.81.1"
+  } 
+
+ ,
+   {
+    "url": "https://gitlab.milanpars.com/salami/kariyahesab_integration",
+    "branch": "main"
   } 
 ]
