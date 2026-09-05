@@ -1,5 +1,5 @@
 
-FROM frappe/erpnext:v16.33.0
+FROM frappe/erpnext:v16.34.1
 
 # user main
 USER root
@@ -32,15 +32,15 @@ WORKDIR /home/frappe/frappe-bench
 COPY apps.json /home/frappe/frappe-bench/apps.v16.json
 
 # hrms
-RUN bench get-app --branch v16.16.0 --skip-assets https://github.com/frappe/hrms
-RUN bench get-app --branch v5.0.5 https://github.com/sfarbod/ERPNext_Extensions
+RUN bench get-app --branch v16.17.1 --skip-assets https://github.com/frappe/hrms
+RUN bench get-app --branch v5.1.2 https://github.com/sfarbod/ERPNext_Extensions
 RUN bench get-app --branch v2.0.1 https://github.com/sfarbod/persian_calendar_ERPNext
 RUN bench get-app --branch develop --skip-assets https://github.com/frappe/telephony
 RUN bench get-app --branch version-16 --skip-assets https://github.com/frappe/payments
-RUN bench get-app --branch v1.29.0 --skip-assets https://github.com/frappe/helpdesk
+RUN bench get-app --branch v1.30.1 --skip-assets https://github.com/frappe/helpdesk
 RUN bench get-app --branch v2.61.0 --skip-assets https://github.com/frappe/lms
-RUN bench get-app --branch v3.12.4  https://github.com/frappe/insights
-RUN bench get-app --branch v3.0.0 --skip-assets https://github.com/frappe/wiki
+RUN bench get-app --branch v3.13.2  https://github.com/frappe/insights
+RUN bench get-app --branch v3.1.0 --skip-assets https://github.com/frappe/wiki
 RUN bench get-app --branch v1.5.4 --skip-assets https://github.com/frappe/lending
 #RUN bench get-app --branch develop --skip-assets https://github.com/frappe/drive || true
 RUN bench get-app --branch v2.8.11  --skip-assets https://github.com/The-Commit-Company/raven
